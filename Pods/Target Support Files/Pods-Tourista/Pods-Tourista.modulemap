@@ -1,0 +1,6 @@
+framework module Pods_Tourista {
+  umbrella header "Pods-Tourista-umbrella.h"
+
+  export *
+  module * { export * }
+}

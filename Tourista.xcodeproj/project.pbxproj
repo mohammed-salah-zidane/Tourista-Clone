@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3D7C4D6B784708B001D4AC /* Pods_Tourista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344E4368C4A822BD54A00D /* Pods_Tourista.framework */; };
+		FA745AD9236ECDA8000E2F1F /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA745AD7236ECDA8000E2F1F /* ItemTableViewCell.swift */; };
+		FA745ADA236ECDA8000E2F1F /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA745AD8236ECDA8000E2F1F /* ItemTableViewCell.xib */; };
+		FA74FA80236F03F300EBA09A /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74FA7F236F03F300EBA09A /* UIImageView.swift */; };
+		FA74FA82236F046A00EBA09A /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74FA81236F046A00EBA09A /* LoadingIndicatorView.swift */; };
+		FA77611F237005960071A06E /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77611E237005960071A06E /* AnimationFactory.swift */; };
+		FADC4B78236EB791005A0E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4B77236EB791005A0E4F /* AppDelegate.swift */; };
+		FADC4B7A236EB791005A0E4F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4B79236EB791005A0E4F /* HomeViewController.swift */; };
+		FADC4B7D236EB791005A0E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC4B7B236EB791005A0E4F /* Main.storyboard */; };
+		FADC4B7F236EB794005A0E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC4B7E236EB794005A0E4F /* Assets.xcassets */; };
+		FADC4B82236EB794005A0E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC4B80236EB794005A0E4F /* LaunchScreen.storyboard */; };
+		FADC4B95236EC125005A0E4F /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4B92236EC125005A0E4F /* CollectionView.swift */; };
+		FADC4B97236EC125005A0E4F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC4B94236EC125005A0E4F /* UIView.swift */; };
+		FAFCA346236ED0C9004EBD5E /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCA344236ED0C9004EBD5E /* ItemCollectionViewCell.swift */; };
+		FAFCA347236ED0C9004EBD5E /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFCA345236ED0C9004EBD5E /* ItemCollectionViewCell.xib */; };
+		FAFCA34B236ED9F8004EBD5E /* TableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCA34A236ED9F8004EBD5E /* TableViewExtensions.swift */; };
+		FAFCA34E236EE021004EBD5E /* CutsomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCA34D236EE021004EBD5E /* CutsomTabBar.swift */; };
+		FAFCA350236EE098004EBD5E /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFCA34F236EE098004EBD5E /* CustomTabBar.xib */; };
+		FAFCA352236EF2BF004EBD5E /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCA351236EF2BF004EBD5E /* HomeModel.swift */; };
+		FAFCA354236EF983004EBD5E /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCA353236EF983004EBD5E /* HomeServices.swift */; };
+		FAFCA356236EFA66004EBD5E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCA355236EFA66004EBD5E /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C344E4368C4A822BD54A00D /* Pods_Tourista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tourista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD1D628EE73176772E328D8 /* Pods-Tourista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tourista.debug.xcconfig"; path = "Target Support Files/Pods-Tourista/Pods-Tourista.debug.xcconfig"; sourceTree = "<group>"; };
+		9AB8D289B35C38E150F5C828 /* Pods-Tourista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tourista.release.xcconfig"; path = "Target Support Files/Pods-Tourista/Pods-Tourista.release.xcconfig"; sourceTree = "<group>"; };
+		FA745AD7236ECDA8000E2F1F /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		FA745AD8236ECDA8000E2F1F /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		FA74FA7F236F03F300EBA09A /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		FA74FA81236F046A00EBA09A /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		FA77611E237005960071A06E /* AnimationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		FADC4B74236EB791005A0E4F /* Tourista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC4B77236EB791005A0E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADC4B79236EB791005A0E4F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FADC4B7C236EB791005A0E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADC4B7E236EB794005A0E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADC4B81236EB794005A0E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADC4B83236EB794005A0E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADC4B92236EC125005A0E4F /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		FADC4B94236EC125005A0E4F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FAFCA344236ED0C9004EBD5E /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAFCA345236ED0C9004EBD5E /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		FAFCA34A236ED9F8004EBD5E /* TableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtensions.swift; sourceTree = "<group>"; };
+		FAFCA34D236EE021004EBD5E /* CutsomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutsomTabBar.swift; sourceTree = "<group>"; };
+		FAFCA34F236EE098004EBD5E /* CustomTabBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabBar.xib; sourceTree = "<group>"; };
+		FAFCA351236EF2BF004EBD5E /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		FAFCA353236EF983004EBD5E /* HomeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
+		FAFCA355236EFA66004EBD5E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADC4B71236EB791005A0E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3D7C4D6B784708B001D4AC /* Pods_Tourista.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870D67075C454C70CDF65C31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD1D628EE73176772E328D8 /* Pods-Tourista.debug.xcconfig */,
+				9AB8D289B35C38E150F5C828 /* Pods-Tourista.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE19905FD590D867181C6658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C344E4368C4A822BD54A00D /* Pods_Tourista.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADC4B6B236EB791005A0E4F = {
+			isa = PBXGroup;
+			children = (
+				FADC4B76236EB791005A0E4F /* Tourista */,
+				FADC4B75236EB791005A0E4F /* Products */,
+				870D67075C454C70CDF65C31 /* Pods */,
+				DE19905FD590D867181C6658 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FADC4B75236EB791005A0E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADC4B74236EB791005A0E4F /* Tourista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADC4B76236EB791005A0E4F /* Tourista */ = {
+			isa = PBXGroup;
+			children = (
+				FADC4B77236EB791005A0E4F /* AppDelegate.swift */,
+				FADC4B8F236EC081005A0E4F /* Resources */,
+				FADC4B8E236EC071005A0E4F /* Network */,
+				FADC4B8D236EC065005A0E4F /* Models */,
+				FADC4B8C236EC05C005A0E4F /* Views */,
+				FADC4B8B236EC04E005A0E4F /* Controllers */,
+				FADC4B91236EC0F6005A0E4F /* Extensions */,
+				FADC4B90236EC094005A0E4F /* Supporting Files */,
+			);
+			path = Tourista;
+			sourceTree = "<group>";
+		};
+		FADC4B8B236EC04E005A0E4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FADC4B98236ECC1B005A0E4F /* Item section Cell */,
+				FADC4B79236EB791005A0E4F /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FADC4B8C236EC05C005A0E4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCA34C236EDFFB004EBD5E /* Custom Tab Bar */,
+				FADC4B7B236EB791005A0E4F /* Main.storyboard */,
+				FADC4B80236EB794005A0E4F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FADC4B8D236EC065005A0E4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCA351236EF2BF004EBD5E /* HomeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FADC4B8E236EC071005A0E4F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCA353236EF983004EBD5E /* HomeServices.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FADC4B8F236EC081005A0E4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FADC4B7E236EB794005A0E4F /* Assets.xcassets */,
+				FADC4B83236EB794005A0E4F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FADC4B90236EC094005A0E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA77611E237005960071A06E /* AnimationFactory.swift */,
+				FA74FA81236F046A00EBA09A /* LoadingIndicatorView.swift */,
+				FAFCA355236EFA66004EBD5E /* Common.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADC4B91236EC0F6005A0E4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA74FA7F236F03F300EBA09A /* UIImageView.swift */,
+				FAFCA34A236ED9F8004EBD5E /* TableViewExtensions.swift */,
+				FADC4B92236EC125005A0E4F /* CollectionView.swift */,
+				FADC4B94236EC125005A0E4F /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FADC4B98236ECC1B005A0E4F /* Item section Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCA343236ED0A5004EBD5E /* ItemCell */,
+				FA745AD7236ECDA8000E2F1F /* ItemTableViewCell.swift */,
+				FA745AD8236ECDA8000E2F1F /* ItemTableViewCell.xib */,
+			);
+			path = "Item section Cell";
+			sourceTree = "<group>";
+		};
+		FAFCA343236ED0A5004EBD5E /* ItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCA344236ED0C9004EBD5E /* ItemCollectionViewCell.swift */,
+				FAFCA345236ED0C9004EBD5E /* ItemCollectionViewCell.xib */,
+			);
+			path = ItemCell;
+			sourceTree = "<group>";
+		};
+		FAFCA34C236EDFFB004EBD5E /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCA34D236EE021004EBD5E /* CutsomTabBar.swift */,
+				FAFCA34F236EE098004EBD5E /* CustomTabBar.xib */,
+			);
+			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADC4B73236EB791005A0E4F /* Tourista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADC4B86236EB794005A0E4F /* Build configuration list for PBXNativeTarget "Tourista" */;
+			buildPhases = (
+				2C42DC2A07E2E3D49A5BE482 /* [CP] Check Pods Manifest.lock */,
+				FADC4B70236EB791005A0E4F /* Sources */,
+				FADC4B71236EB791005A0E4F /* Frameworks */,
+				FADC4B72236EB791005A0E4F /* Resources */,
+				C205521B607FE40ABDEEEAF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tourista;
+			productName = Tourista;
+			productReference = FADC4B74236EB791005A0E4F /* Tourista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADC4B6C236EB791005A0E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = prog_zidane;
+				TargetAttributes = {
+					FADC4B73236EB791005A0E4F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = FADC4B6F236EB791005A0E4F /* Build configuration list for PBXProject "Tourista" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADC4B6B236EB791005A0E4F;
+			productRefGroup = FADC4B75236EB791005A0E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADC4B73236EB791005A0E4F /* Tourista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADC4B72236EB791005A0E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCA350236EE098004EBD5E /* CustomTabBar.xib in Resources */,
+				FA745ADA236ECDA8000E2F1F /* ItemTableViewCell.xib in Resources */,
+				FADC4B82236EB794005A0E4F /* LaunchScreen.storyboard in Resources */,
+				FAFCA347236ED0C9004EBD5E /* ItemCollectionViewCell.xib in Resources */,
+				FADC4B7F236EB794005A0E4F /* Assets.xcassets in Resources */,
+				FADC4B7D236EB791005A0E4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C42DC2A07E2E3D49A5BE482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tourista-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C205521B607FE40ABDEEEAF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tourista/Pods-Tourista-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tourista/Pods-Tourista-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tourista/Pods-Tourista-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADC4B70236EB791005A0E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA74FA82236F046A00EBA09A /* LoadingIndicatorView.swift in Sources */,
+				FA77611F237005960071A06E /* AnimationFactory.swift in Sources */,
+				FADC4B97236EC125005A0E4F /* UIView.swift in Sources */,
+				FAFCA354236EF983004EBD5E /* HomeServices.swift in Sources */,
+				FAFCA34E236EE021004EBD5E /* CutsomTabBar.swift in Sources */,
+				FA74FA80236F03F300EBA09A /* UIImageView.swift in Sources */,
+				FADC4B95236EC125005A0E4F /* CollectionView.swift in Sources */,
+				FAFCA356236EFA66004EBD5E /* Common.swift in Sources */,
+				FADC4B7A236EB791005A0E4F /* HomeViewController.swift in Sources */,
+				FA745AD9236ECDA8000E2F1F /* ItemTableViewCell.swift in Sources */,
+				FADC4B78236EB791005A0E4F /* AppDelegate.swift in Sources */,
+				FAFCA346236ED0C9004EBD5E /* ItemCollectionViewCell.swift in Sources */,
+				FAFCA352236EF2BF004EBD5E /* HomeModel.swift in Sources */,
+				FAFCA34B236ED9F8004EBD5E /* TableViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FADC4B7B236EB791005A0E4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADC4B7C236EB791005A0E4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADC4B80236EB794005A0E4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADC4B81236EB794005A0E4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADC4B84236EB794005A0E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADC4B85236EB794005A0E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADC4B87236EB794005A0E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD1D628EE73176772E328D8 /* Pods-Tourista.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX9AC3J6FG;
+				INFOPLIST_FILE = "$(SRCROOT)/Tourista/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m.s.zidane.com.Tourista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADC4B88236EB794005A0E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB8D289B35C38E150F5C828 /* Pods-Tourista.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX9AC3J6FG;
+				INFOPLIST_FILE = "$(SRCROOT)/Tourista/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m.s.zidane.com.Tourista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADC4B6F236EB791005A0E4F /* Build configuration list for PBXProject "Tourista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC4B84236EB794005A0E4F /* Debug */,
+				FADC4B85236EB794005A0E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADC4B86236EB794005A0E4F /* Build configuration list for PBXNativeTarget "Tourista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC4B87236EB794005A0E4F /* Debug */,
+				FADC4B88236EB794005A0E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADC4B6C236EB791005A0E4F /* Project object */;
+}
